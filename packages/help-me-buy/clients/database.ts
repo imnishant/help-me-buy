@@ -2,7 +2,7 @@ import * as Mongoose from 'mongoose';
 
 let database: Mongoose.Connection;
 
-export const connect = () => {
+export const connect = (): void => {
     const uri = '';
 
     if (database) {
@@ -21,7 +21,7 @@ export const connect = () => {
     });
 };
 
-export const disconnect = () => {
+export const disconnect = (): void => {
     if (!database) {
         return;
     }

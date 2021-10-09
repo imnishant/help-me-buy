@@ -5,6 +5,6 @@
 1. Run the following commands to install dependencies and setup the project:
 ```
 npm install
-lerna bootstrap
+npm run bootstrap
 ```
 2. Run the project using command `npm run start`.

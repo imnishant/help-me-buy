@@ -6,11 +6,15 @@
   "scripts": {
     "start": "nodemon local.ts",
     "bootstrap": "lerna bootstrap",
+    "lint": "eslint . --ext .ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Nishant Sharma",
   "license": "ISC",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "eslint": "^7.32.0",
     "lerna": "^4.0.0",
     "nodemon": "^2.0.13",
     "ts-node": "^10.2.1",
